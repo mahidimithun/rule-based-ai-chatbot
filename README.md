@@ -1,20 +1,30 @@
 # Rule-Based AI Chatbot (DecoBot) 🤖
 
-Welcome to **Project 1** for **DecodeLabs (Batch 2026)**. This project implements a deterministic, rule-based AI chatbot named **DecoBot** using pure Python. It serves as a foundational project to understand foundational logic control flow, exact/partial string matching architectures, and the classic **IPO (Input-Process-Output)** model before transitioning into probabilistic AI systems.
+Welcome to **Project 1** for **DecodeLabs (Batch 2026)**. This repository contains the complete implementation of **DecoBot**, a deterministic, rule-based AI assistant built entirely using Python's standard library. 
+
+This project serves as an introductory milestone to master foundational computer science architectures, data structure lookups ($O(1)$ complexity), text standardization pipelines, and the classic **IPO (Input-Process-Output)** engineering loop before working with probabilistic machine learning networks.
+
+---
+
+## 👤 Project Credits
+* **Author:** Mahidi Hasan Mithun
+* **Platform:** DecodeLabs
+* **Cohort:** Batch 2026
+* **Milestone:** Project 1 (Rule-Based AI Chatbot)
 
 ---
 
 ## 💡 What is Rule-Based AI?
 
-A **Rule-Based AI** system relies on explicit, predefined rules to make decisions and generate responses. Unlike modern Machine Learning or Deep Learning architectures (like transformers or LLMs), it does not look for statistical patterns in historical datasets or dynamically infer meaning. 
+A **Rule-Based AI** system makes decisions and forms responses based on explicit, preconfigured rules established by the developer. It does not generalize or learn from patterns dynamically.
 
-### Key Characteristics:
-* **Deterministic Logic:** The exact same input will consistently return the exact same output path. There is zero risk of "hallucination."
-* **O(1) Efficiency:** Uses Hash-Maps (Python Dictionaries) for fast, near-instantaneous intent lookups.
-* **White-Box Transparency:** Every single decision path can be completely traced, audited, and explained. It acts as the core foundational layer behind modern enterprise **AI Guardrails** (such as Nvidia NeMo or Llama Guard).
+### Key Performance Profiles:
+* **Deterministic Behavior:** The exact same user query yields the exact same logical execution path every time. There is **zero risk of hallucination**.
+* **High Efficiency:** Uses memory-mapped Hash-Maps (Python `dict`), achieving $O(1)$ time complexity for immediate exact-match queries.
+* **White-Box System:** Highly trace-auditable and explainable. This deterministic approach serves as the design architecture behind modern enterprise **AI Guardrails** (e.g., NVIDIA NeMo, Llama Guard) to filter toxic inputs before they reach LLMs.
 
 ---
 
-## 🏗️ Architectural Blueprint (The IPO Model)
+## 🏗️ Architectural Blueprint: The IPO Model
 
-DecoBot is engineered strictly around the standard computer science **Input ➔ Process ➔ Output (IPO)** model:
+The execution timeline follows a strict **Input ➔ Process ➔ Output** methodology:
