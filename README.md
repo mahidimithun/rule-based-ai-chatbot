@@ -33,7 +33,7 @@ The execution timeline follows a strict **Input ➔ Process ➔ Output** methodo
 
 [![Batch](https://img.shields.io/badge/Batch-2026-blue.svg)](https://github.com/)
 [![Project Milestone](https://img.shields.io/badge/Project-1-green.svg)](https://github.com/)
-[![Platform](https://img.shields.io/badge/Platform-DecodeLabs-orange.svg)](https://decodelabs.ai)
+[![Platform](https://img.shields.io/badge/Platform-DecodeLabs-orange.svg)](https://www.decodelabs.tech/)
 
 An elegant, deterministic chatbot built from pure standard-library Python. Developed as part of the **DecodeLabs AI Engineering Milestone 1**, this project implements a rigid logic framework mimicking real-world AI guardrail systems.
 
