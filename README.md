@@ -28,3 +28,66 @@ A **Rule-Based AI** system makes decisions and forms responses based on explicit
 ## 🏗️ Architectural Blueprint: The IPO Model
 
 The execution timeline follows a strict **Input ➔ Process ➔ Output** methodology:
+
+# DecoBot 🤖 | Rule-Based AI Chatbot
+
+[![Batch](https://img.shields.io/badge/Batch-2026-blue.svg)](https://github.com/)
+[![Project Milestone](https://img.shields.io/badge/Project-1-green.svg)](https://github.com/)
+[![Platform](https://img.shields.io/badge/Platform-DecodeLabs-orange.svg)](https://decodelabs.ai)
+
+An elegant, deterministic chatbot built from pure standard-library Python. Developed as part of the **DecodeLabs AI Engineering Milestone 1**, this project implements a rigid logic framework mimicking real-world AI guardrail systems.
+
+---
+
+## 🏗️ Architectural Phases Explained
+
+This chatbot operates on a strict **Input ➔ Process ➔ Output (IPO)** system blueprint. Below is the engineering breakdown of why each structural phase is vital to the application.
+
+
+
+### 🧠 PHASE 1 ── KNOWLEDGE BASE (Hash-Map / Dictionary)
+* **The System's Core Brain:** Because rule-based systems do not possess probabilistic learning models, they rely entirely on pre-seeded human intent patterns. 
+* **Optimized Lookup Performance ($O(1)$):** Using a Python dictionary allows the logic engine to evaluate intents instantly. This approach completely bypasses the computational and maintenance mess of traditional, deeply nested `if-elif` control ladders.
+
+### 🧼 PHASE 2 ── SANITIZATION ENGINE
+* **Normalizing Human Friction:** Real-world users introduce high noise into terminal inputs through irregular spacing, panicked punctuation (`!!`), and random case shifts (`HeLlO?`).
+* **Determinism Safety:** The sanitization pipeline strips trailing punctuation, forces strings to lowercase, and collapses internal whitespace gaps. This guarantees that incoming noisy user data translates perfectly into structured keys that the system can recognize.
+
+### 🩻 PHASE 3 ── INTENT MATCHING ENGINE (The Logic Skeleton)
+* **Tiered Routing Strategy:** This layer functions as the decision gatekeeper. It processes matches down a rigid fallback chain: **Tier 0** checks for immediate exit kill-signals, **Tier 1** processes lightning-fast exact dictionary matches, and **Tier 2** falls back to keyword-in-string partial tracking.
+* **Graceful Degradation:** When an unknown string bypasses exact or partial matches, **Tier 3** safely triggers a non-breaking fallback response. This prevents runtime system crashes while managing user expectations transparently.
+
+### 🖨️ PHASE 4 ── OUTPUT ENGINE (Pretty Printing)
+* **User Experience (UX) Emulation:** Dumping text instantly onto a command line feels sterile and unengaging. This phase introduces artificial millisecond delays between characters to cleanly simulate a live terminal "typing" response.
+* **Visual Separation:** Handles structural formatting, initialization banners, and speaker tags (`👤 You:` vs `🤖 DecoBot:`) to maintain clean scannability inside the interface.
+
+### 💓 PHASE 5 ── THE MAIN LOOP (The Heartbeat)
+* **Persistent Runtime Lifecycle:** Script execution naturally halts once its code rows finish interpreting. The infinite `while True` loop serves as the heartbeat, constantly keeping the application alive and listening for new inputs.
+* **Orchestration & State Management:** This layer synchronizes the execution flow—waiting on inputs, feeding them into the sanitization pipeline, evaluating matching tiers, counting total user exchanges, and handling graceful, non-corrupting user session terminations.
+
+---
+
+## 🛠️ Tech Stack & Requirements
+
+* **Language:** Python 3.x
+* **Libraries:** `time`, `random` (Strictly Python Standard Library—no external dependencies required)
+* **Model Type:** Deterministic Rule-Based System / Non-Probabilistic
+
+---
+
+## 🚀 Execution Summary Reference
+
+```text
+────────────────────────────────────────────────────────────
+          DecodeLabs | Batch 2026 | Project 1
+            RULE-BASED AI CHATBOT  🤖
+
+       Type 'help' to see what I know.
+       Type 'exit' to shut me down.
+────────────────────────────────────────────────────────────
+    
+🤖 DecoBot: Hello! I'm DecoBot, your DecodeLabs AI assistant. How can I help you today?
+────────────────────────────────────────────────────────────
+
+👤 You: what is python
+🤖 DecoBot: Python is the language I'm written in! It's powerful, readable, and has amazing libraries for AI.
