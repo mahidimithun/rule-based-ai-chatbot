@@ -74,6 +74,9 @@ This chatbot operates on a strict **Input ➔ Process ➔ Output (IPO)** system 
 * **Model Type:** Deterministic Rule-Based System / Non-Probabilistic
 
 ---
+**📸 Output Screenshot**
+<img width="1672" height="585" alt="ai_chatbot" src="https://github.com/user-attachments/assets/ff33916f-2fa8-41e4-bb71-1d422a741e63" />
+
 
 ## 🚀 Execution Summary Reference
 
@@ -91,3 +94,5 @@ This chatbot operates on a strict **Input ➔ Process ➔ Output (IPO)** system 
 
 👤 You: what is python
 🤖 DecoBot: Python is the language I'm written in! It's powerful, readable, and has amazing libraries for AI.
+
+
